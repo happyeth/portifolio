@@ -41,6 +41,9 @@ const Headermain = () => {
                     <Link  onClick={handleToggle} to="/portfolio" className="my-3"> Portfolio</Link>
                   </li>
                   <li className="menu_item">
+                  <Link onClick={handleToggle} to="/certificate" className="my-3"> Certificate</Link>
+                  </li>
+                  <li className="menu_item">
                   <Link onClick={handleToggle} to="/about" className="my-3">About</Link>
                   </li>
                   <li className="menu_item">
@@ -50,9 +53,11 @@ const Headermain = () => {
               </div>
             </div>
           </div>
+          <br/>
+          <br/>
+       
           <div className="menu_footer d-flex flex-column flex-md-row justify-content-between align-items-md-center position-absolute w-100 p-3">
             <div className="d-flex">
-            <a href={socialprofils.facebook}>Facebook</a>
             <a href={socialprofils.github}>Github</a>
             <a href={socialprofils.twitter}>Twitter</a>
             </div>
