@@ -72,6 +72,13 @@ const services = [
 
 const dataportfolio = [
 
+     {
+        img: "./assets/images/doc.JPG",// Replace with actual image
+        description: "Doc2doc.health a health care website that provide services for other doctors.",
+        link: "https://doc2dochealth.vercel.app/", // Your live link
+        technologies: ["Nuxt js ", "tailwind css ", "contentful API"]
+    },
+
     {
         img: "./assets/images/movvv.JPG",// Replace with actual image
         description: "Ibex Movies - YouTube-embedded movie streaming site. Developed with PHP, HTML/CSS, and JavaScript.",
