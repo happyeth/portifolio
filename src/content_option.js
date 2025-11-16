@@ -73,31 +73,29 @@ const services = [
 const dataportfolio = [
 
       {
-        img: "./assets/images/game.JPG",// Replace with actual image
-        description: "MovieFlixee is a movie browsing website that dynamically pulls film data from the IMDb API to show ratings, details, and categories.",
-        link: "https://et-games.netlify.app/", // Your live link
-        technologies: ["next js ", "tailwind css "]
-    },
-
-    {
-        img: "./assets/images/murad.JPG",// Replace with actual image
-        description: "ET-Games is a lightweight web app I built that features Ethiopian riddles with interactive answers available in both Amharic and English",
-        link: "https://muracreatives.netlify.app/", // Your live link
-        technologies: ["Next js ", "tailwind css "]
-    },
-    
-    {
-        img: "./assets/images/movies.JPG",// Replace with actual image
-        description: "MovieFlixee is a movie browsing website that dynamically pulls film data from the IMDb API to show ratings, details, and categories.",
-        link: "https://movieflixee.free.nf/", // Your live link
-        technologies: ["html ","js", "tailwind css "]
-    },
-     {
-        img: "./assets/images/shaka.JPG",// Replace with actual image
-        description: "This site serves as a single-page informational overview of Shaka Mall in Burayu, Ethiopia.",
-        link: "https://shakamall.netlify.app/", // Your live link
-        technologies: ["Nuxt js ", "tailwind css ", "contentful API"]
-    },
+    img: "/game.jpg",
+    description: "ET-Games...",
+    link: "https://et-games.netlify.app/",
+    technologies: ["Next.js", "Tailwind"]
+  },
+  {
+    img: "/murad.jpg",
+    description: "Portfolio site...",
+    link: "https://muracreatives.netlify.app/",
+    technologies: ["Next.js", "Tailwind"]
+  },
+  {
+    img: "/movies.jpg",
+    description: "MovieFlixee...",
+    link: "https://movieflixee.free.nf/",
+    technologies: ["HTML", "JS", "Tailwind"]
+  },
+  {
+    img: "/shaka.jpg",
+    description: "Shaka Mall info site...",
+    link: "https://shakamall.netlify.app/",
+    technologies: ["Nuxt.js", "Tailwind"]
+  },
      {
         img: "./assets/images/doc.JPG",// Replace with actual image
         description: "Doc2doc.health a health care website that provide services for other doctors.",
