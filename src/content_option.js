@@ -15,7 +15,7 @@ const introdata = {
   },
   description:
     "Passionate Software Engineer with a BSc in Software Engineering and hands-on experience in full-stack development. Certified in Meta Front-End and Full-Stack Development.",
-  your_img_url: "/geme.png",
+  your_img_url: "./assets/images/geme.png",
 };
 
 const dataabout = {
